@@ -86,7 +86,7 @@ class BinaryTree
     void inorder(Node *ptr)
     {
         if (ROOT == NULL;)
-        {}
+        {
     }
 
 }
