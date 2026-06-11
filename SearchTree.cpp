@@ -43,7 +43,7 @@ class BinaryTree
         Node *currentNode = NULL;
 
         search(element, parent, currentNode);
-        
+
 
     }
 }
