@@ -1,0 +1,21 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+class Node
+{
+    public:
+    string info;
+    Node *leftcild;
+    Node *rightchild;
+
+    // constructur for the node class
+    Node(string i, Node *l, Node *r)
+    {
+        info = i;
+        leftcild = l;
+        rightchild = r;
+    }
+};
+
+class BinaryTree
